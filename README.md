@@ -14,5 +14,8 @@ docker build -t [ラベル] [Dockerfile のパス]
 docker build -t myspfx:1.9.1 .
 ```
 
+## 使用上の注意点
+作成した Docker イメージを利用する際には、以下のサイトにある Known issues を読んで必要な対応を行ってください。
+
 ## タグ
 - **latest**: SharePoint Framework Yeoman generator Version 1.9.1
