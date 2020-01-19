@@ -1,6 +1,6 @@
 # SharePoint Framework 開発環境用 Dockerfile 及び Docker イメージ
 SharePoint Framework の開発環境用の Docker イメージを作成するための Dockerfile と、この Dockerfile により作成された Docker イメージです。  
-Dockerfile は GitHub に、Docker イメージは Docker Hub にそれぞれ格納しています。
+Dockerfile は [GitHub](https://github.com/HiroakiOikawa/docker-spfx/) に、Docker イメージは [Docker Hub](https://hub.docker.com/r/orivers/spfx/) にそれぞれ格納しています。
 
 ## Dockerfile
 ### 使い方
@@ -18,11 +18,11 @@ docker build -t myspfx:1.9.1 .
 
 ## Docker イメージ
 ### 使い方
-[Docker Hub](https://hub.docker.com/r/orivers/spfx/) から Docker ファイルを Pull してください。
+docker コマンドで [Docker Hub](https://hub.docker.com/r/orivers/spfx/) から Docker イメージを Pull してください。
 
 PowerShell
 ```PowersShell
-docker build -t [ラベル] [Dockerfile のパス]
+docker pull orivers/spfx:[SPFx バージョン番号]
 ```
 
 例：最新版を取得する
