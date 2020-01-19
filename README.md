@@ -20,4 +20,6 @@ docker build -t myspfx:1.9.1 .
 [waldekmastykarz/docker-spfx](https://github.com/waldekmastykarz/docker-spfx)
 
 ## タグ
-- **latest**: SharePoint Framework Yeoman generator Version 1.9.1
+- **latest**: SharePoint Framework Yeoman generator Version 1.10.0
+- **1.10.0**: SharePoint Framework Yeoman generator Version 1.10.0
+- **1.9.1**: SharePoint Framework Yeoman generator Version 1.9.1
