@@ -1,5 +1,5 @@
 # SharePoint Framework 開発環境用 Dockerfile 及び Docker イメージ
-SharePoint Framework の開発環境用の Docker イメージを作成するための Dockerfile と、この Dockerfile により作成された Docker イメージです。
+SharePoint Framework の開発環境用の Docker イメージを作成するための Dockerfile と、この Dockerfile により作成された Docker イメージです。  
 Dockerfile は GitHub に、Docker イメージは Docker Hub にそれぞれ格納しています。
 
 ## Dockerfile
