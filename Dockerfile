@@ -1,8 +1,8 @@
-FROM node:10.16.3
+FROM node:10.21.0
 
 EXPOSE 5432 4321 35729
 
-RUN npm i -g gulp yo @microsoft/generator-sharepoint@1.10.0
+RUN npm i -g gulp yo @microsoft/generator-sharepoint@1.11.0
 
 VOLUME /usr/app/spfx
 WORKDIR /usr/app/spfx
